@@ -48,7 +48,7 @@ npm install
 To add data to your Elasticsearch index, use the following curl command:
 
 ```bash
-curl --cacert http_ca.crt -u elastic:$ELASTIC_PASSWORD -H "Content-Type: application/json" -XPOST "https://localhost:9200/accounts-index/_bulk?pretty&refresh" --data-binary "@accounts.json"
+curl --cacert http_ca.crt -u elastic:$ELASTIC_PASSWORD -H "Content-Type: application/json" -XPOST "https://localhost:9200/matches-index/_bulk?pretty&refresh" --data-binary "@matches.json"
 ```
 
 This command will bulk import the data from accounts.json into the accounts-index index on Elasticsearch. Make sure the accounts.json file is in the correct format for Elasticsearch bulk import.
