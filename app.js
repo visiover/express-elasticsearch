@@ -7,7 +7,7 @@ const fs = require("fs");
 app.use(bodyParser.json());
 
 const port = 3333;
-const indexName = "bank-index";
+const indexName = "matches-index";
 const esHost = "https://localhost:9200";
 const esUserName = "elastic";
 const esPassword = "hwdUCN+*nsr1riiBqjzT";
