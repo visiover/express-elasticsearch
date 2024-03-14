@@ -41,6 +41,7 @@ cd <repository-name>
 npm install
 ```
 
+=> Remember to add your http_ca.crt file to the root of this project.
 
 #### 4.Importing Data into Elasticsearch
 
